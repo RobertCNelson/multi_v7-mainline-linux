@@ -2,7 +2,7 @@
 #
 ARCH=$(uname -m)
 
-config="omap2plus_defconfig"
+config="multi_v7_defconfig"
 
 #toolchain="gcc_linaro_eabi_4_8"
 #toolchain="gcc_linaro_eabi_4_9"
@@ -14,7 +14,7 @@ toolchain="gcc_linaro_gnueabihf_4_9"
 #Kernel/Build
 KERNEL_REL=4.2
 KERNEL_TAG=${KERNEL_REL}-rc8
-BUILD=omap2plus-r0
+BUILD=multi_v7-r0
 
 #v3.X-rcX + upto SHA
 #prev_KERNEL_SHA=""
