@@ -120,7 +120,7 @@ fixes () {
 	fi
 }
 
-fixes
+#fixes
 
 packaging () {
 	echo "dir: packaging"
