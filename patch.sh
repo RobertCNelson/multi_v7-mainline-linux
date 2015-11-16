@@ -107,21 +107,6 @@ local_patch () {
 #rt
 #local_patch
 
-fixes () {
-	echo "dir: fixes"
-	#regenerate="enable"
-	if [ "x${regenerate}" = "xenable" ] ; then
-		sed -i -e 's:sun4i-a10-itead-iteaduino-plus.dts:sun4i-a10-itead-iteaduino-plus.dtb:g' arch/arm/boot/dts/Makefile
-		git commit -a -m 'arm fixes' -s
-		git format-patch -1 -o "${DIR}/patches/fixes"
-		exit 2
-	else
-		${git} "${DIR}/patches/fixes/0001-arm-fixes.patch"
-	fi
-}
-
-#fixes
-
 packaging () {
 	echo "dir: packaging"
 	#regenerate="enable"
