@@ -4,7 +4,7 @@ ARCH=$(uname -m)
 
 config="multi_v7_defconfig"
 
-build_prefix="multiv7-r"
+build_prefix="-multiv7-r"
 branch_prefix="v"
 branch_postfix=".x"
 
