@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.11.0-rc5 Kernel Configuration
+# Linux/arm 5.11.0-rc6 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 10.2-2020.11 (arm-10.16)) 10.2.1 20201103"
 CONFIG_CC_IS_GCC=y
@@ -2518,7 +2518,7 @@ CONFIG_USB_NET_ZAURUS=y
 # CONFIG_USB_VL600 is not set
 # CONFIG_USB_NET_CH9200 is not set
 # CONFIG_USB_NET_AQC111 is not set
-CONFIG_USB_RTL8153_ECM=m
+# CONFIG_USB_RTL8153_ECM is not set
 CONFIG_WLAN=y
 CONFIG_WLAN_VENDOR_ADMTEK=y
 # CONFIG_ADM8211 is not set
@@ -6439,6 +6439,11 @@ CONFIG_LEDS_MAX8997=m
 # CONFIG_LEDS_SPI_BYTE is not set
 # CONFIG_LEDS_TI_LMU_COMMON is not set
 # CONFIG_LEDS_SGM3140 is not set
+
+#
+# Flash and Torch LED drivers
+#
+# CONFIG_LEDS_RT8515 is not set
 
 #
 # LED Triggers
