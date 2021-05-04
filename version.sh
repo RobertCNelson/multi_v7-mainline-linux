@@ -8,7 +8,7 @@ build_prefix="-multiv7-r"
 branch_prefix="v"
 branch_postfix=".x"
 
-#https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/changes.rst?h=v5.12-rc1
+#https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/changes.rst?h=v5.12-rc2
 #arm
 KERNEL_ARCH=arm
 DEBARCH=armhf
