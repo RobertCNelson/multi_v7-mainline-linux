@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.19.0-rc1 Kernel Configuration
+# Linux/arm 5.19.0-rc2 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 12.1.0"
 CONFIG_CC_IS_GCC=y
@@ -144,6 +144,8 @@ CONFIG_GENERIC_SCHED_CLOCK=y
 # end of Scheduler features
 
 CONFIG_CC_IMPLICIT_FALLTHROUGH="-Wimplicit-fallthrough=5"
+CONFIG_GCC12_NO_ARRAY_BOUNDS=y
+CONFIG_CC_NO_ARRAY_BOUNDS=y
 CONFIG_CGROUPS=y
 # CONFIG_MEMCG is not set
 # CONFIG_BLK_CGROUP is not set
@@ -3184,7 +3186,7 @@ CONFIG_TCG_TIS_I2C_INFINEON=m
 # CONFIG_TCG_TIS_ST33ZP24_SPI is not set
 # CONFIG_XILLYBUS is not set
 # CONFIG_XILLYUSB is not set
-# CONFIG_RANDOM_TRUST_BOOTLOADER is not set
+CONFIG_RANDOM_TRUST_BOOTLOADER=y
 # end of Character devices
 
 #
