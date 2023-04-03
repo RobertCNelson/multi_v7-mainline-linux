@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.3.0-rc4 Kernel Configuration
+# Linux/arm 6.3.0-rc5 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 12.2.0"
 CONFIG_CC_IS_GCC=y
@@ -3555,7 +3555,6 @@ CONFIG_PINCTRL_MT7623=y
 CONFIG_PINCTRL_MT7629=y
 CONFIG_PINCTRL_MT8135=y
 CONFIG_PINCTRL_MT8127=y
-# CONFIG_PINCTRL_MT7981 is not set
 # end of MediaTek pinctrl drivers
 
 CONFIG_PINCTRL_MESON=y
