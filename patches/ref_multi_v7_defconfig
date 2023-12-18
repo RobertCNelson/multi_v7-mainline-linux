@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.7.0-rc5 Kernel Configuration
+# Linux/arm 6.7.0-rc6 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 13.2.0"
 CONFIG_CC_IS_GCC=y
@@ -7699,7 +7699,6 @@ CONFIG_MSM_MMCC_8974=y
 # CONFIG_SDX_GCC_55 is not set
 # CONFIG_SDX_GCC_65 is not set
 # CONFIG_SDX_GCC_75 is not set
-# CONFIG_SM_CAMCC_8550 is not set
 # CONFIG_SM_GCC_7150 is not set
 # CONFIG_SPMI_PMIC_CLKDIV is not set
 # CONFIG_QCOM_HFPLL is not set
@@ -10062,8 +10061,6 @@ CONFIG_STACKTRACE=y
 # CONFIG_DEBUG_NOTIFIERS is not set
 # CONFIG_DEBUG_MAPLE_TREE is not set
 # end of Debug kernel data structures
-
-# CONFIG_DEBUG_CREDENTIALS is not set
 
 #
 # RCU Debugging
