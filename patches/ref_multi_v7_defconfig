@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.13.0-rc5 Kernel Configuration
+# Linux/arm 6.13.0-rc6 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 14.2.0"
 CONFIG_CC_IS_GCC=y
@@ -5631,6 +5631,7 @@ CONFIG_OMAP2_DSS_SLEEP_AFTER_VENC_RESET=y
 CONFIG_DRM_MSM=m
 CONFIG_DRM_MSM_GPU_STATE=y
 # CONFIG_DRM_MSM_GPU_SUDO is not set
+# CONFIG_DRM_MSM_VALIDATE_XML is not set
 CONFIG_DRM_MSM_MDSS=y
 CONFIG_DRM_MSM_MDP4=y
 CONFIG_DRM_MSM_MDP5=y
