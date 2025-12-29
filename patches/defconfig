@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.19.0-rc2 Kernel Configuration
+# Linux/arm 6.19.0-rc3 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 15.2.0"
 CONFIG_CC_IS_GCC=y
@@ -10634,7 +10634,7 @@ CONFIG_DEBUG_MISC=y
 #
 CONFIG_DEBUG_INFO=y
 CONFIG_AS_HAS_NON_CONST_ULEB128=y
-# CONFIG_DEBUG_INFO_NONE is not set
+CONFIG_DEBUG_INFO_NONE=y
 CONFIG_DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT=y
 # CONFIG_DEBUG_INFO_DWARF4 is not set
 # CONFIG_DEBUG_INFO_DWARF5 is not set
