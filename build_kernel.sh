@@ -60,6 +60,7 @@ make_menuconfig () {
 	make ARCH=${KERNEL_ARCH} CROSS_COMPILE="${CC}" "${config}"
 	make ARCH=${KERNEL_ARCH} CROSS_COMPILE="${CC}" menuconfig
 	./scripts/config --disable CONFIG_LOCALVERSION_AUTO
+	./scripts/config --disable CONFIG_DEBUG_INFO
 	./scripts/config --enable CONFIG_DEBUG_INFO_NONE
 	if [ ! -f "${DIR}/.yakbuild" ] ; then
 		cp -v .config "${DIR}/patches/defconfig"
